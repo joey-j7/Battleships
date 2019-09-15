@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Battleships.iOS">
+      <UniqueIdentifier>{09bebabd-ceb0-47f4-94db-84def0028cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battleships.iOS\Images.xcassets">
+      <UniqueIdentifier>{4ffddaaf-3e5d-4a4f-8316-e752d47d71a5}</UniqueIdentifier>
+      <Extensions>Battleships.iOS\Images.xcassets\*</Extensions>
+    </Filter>
+    <Filter Include="Battleships.iOS\Images.xcassets\AppIcon.appiconset">
+      <UniqueIdentifier>{e4236cd7-36be-48fe-997a-6f6c4c9170e4}</UniqueIdentifier>
+      <Extensions>Battleships.iOS\Images.xcassets\AppIcon.appiconset\*</Extensions>
+    </Filter>
+    <Filter Include="Battleships.iOS\Supporting Files">
+      <UniqueIdentifier>{7e397b2d-ec2a-402e-aa40-bfaf7f08f3c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Battleships.iOS\AppDelegate.m">
+      <Filter>Battleships.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleships.iOS\GameViewController.m">
+      <Filter>Battleships.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleships.iOS\main.m">
+      <Filter>Battleships.iOS\Supporting Files</Filter>
+    </ClCompile>
+    <ClInclude Include="Battleships.iOS\AppDelegate.h">
+      <Filter>Battleships.iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleships.iOS\GameViewController.h">
+      <Filter>Battleships.iOS</Filter>
+    </ClInclude>
+    <Content Include="Battleships.iOS\Base.lproj\Main.storyboard">
+      <Filter>Battleships.iOS</Filter>
+    </Content>
+    <Content Include="Battleships.iOS\Images.xcassets\AppIcon.appiconset\Contents.json">
+      <Filter>Battleships.iOS\Images.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <InfoPlist Include="Battleships.iOS\Info.plist">
+      <Filter>Battleships.iOS\Supporting Files</Filter>
+    </InfoPlist>
+  </ItemGroup>
+</Project>

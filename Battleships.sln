@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Battleships", "Battleships\Battleships.vcxproj", "{6C08F941-81DF-47B6-8B7A-622CB588A5FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA} = {287B93A8-81E9-47A0-BC4F-39976094F5CA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcxproj", "{287B93A8-81E9-47A0-BC4F-39976094F5CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Battleships", "Battleships", "{5185C76C-5316-49D5-A2B2-FDC407CDCD3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{8B9EE211-23B5-4BA5-83EF-05411E6D580F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Battleships.Android.NativeActivity", "Mobile\Battleships.Android.NativeActivity\Battleships.Android.NativeActivity.vcxproj", "{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}"
+EndProject
+Project("{39E2626F-3545-4960-A6E8-258AD8476CE5}") = "Battleships.Android.Packaging", "Mobile\Battleships.Android.Packaging\Battleships.Android.Packaging.androidproj", "{2BB55161-CCA8-4B6F-84F4-E09252AE3539}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Battleships.Shared", "Mobile\Battleships.Shared\Battleships.Shared.vcxitems", "{BD1BE17D-7B72-43DA-926E-88D3D5605DDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Battleships.iOS.Application", "Mobile\Battleships.iOS.Application\Battleships.iOS.Application.xcodeproj\project.pbxproj", "{B29A2215-27AC-45FA-9862-3C84CD7A4216}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Battleships.iOS.StaticLibrary", "Mobile\Battleships.iOS.StaticLibrary\Battleships.iOS.StaticLibrary.vcxproj", "{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Mobile\Battleships.Shared\Battleships.Shared.vcxitems*{78edfd36-48d8-426b-b2ec-0f8bc79ad157}*SharedItemsImports = 4
+		Mobile\Battleships.Shared\Battleships.Shared.vcxitems*{a7e28ba4-9a58-461f-8a2a-5e9a6fcab7a3}*SharedItemsImports = 4
+		Mobile\Battleships.Shared\Battleships.Shared.vcxitems*{bd1be17d-7b72-43da-926e-88d3d5605ddd}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		_Win_Debug|x86 = _Win_Debug|x86
+		_Win_Release|x86 = _Win_Release|x86
+		And_Debug|x86 = And_Debug|x86
+		And_Release|x86 = And_Release|x86
+		iOS_Debug|x86 = iOS_Debug|x86
+		iOS_Release|x86 = iOS_Release|x86
+		Pi_Debug|x86 = Pi_Debug|x86
+		Pi_Release|x86 = Pi_Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}._Win_Debug|x86.ActiveCfg = Win_Debug|Win32
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}._Win_Debug|x86.Build.0 = Win_Debug|Win32
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}._Win_Release|x86.ActiveCfg = Win_Release|Win32
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}._Win_Release|x86.Build.0 = Win_Release|Win32
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}.And_Debug|x86.ActiveCfg = Android_Debug|ARM
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}.And_Release|x86.ActiveCfg = Android_Release|ARM
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}.iOS_Debug|x86.ActiveCfg = Android_Release|Win32
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}.iOS_Release|x86.ActiveCfg = Android_Release|Win32
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}.Pi_Debug|x86.ActiveCfg = Pi_Debug|Win32
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}.Pi_Debug|x86.Build.0 = Pi_Debug|Win32
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}.Pi_Release|x86.ActiveCfg = Pi_Release|Win32
+		{6C08F941-81DF-47B6-8B7A-622CB588A5FB}.Pi_Release|x86.Build.0 = Pi_Release|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}._Win_Debug|x86.ActiveCfg = Win_Debug|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}._Win_Debug|x86.Build.0 = Win_Debug|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}._Win_Release|x86.ActiveCfg = Win_Release|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}._Win_Release|x86.Build.0 = Win_Release|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}.And_Debug|x86.ActiveCfg = Android_Debug|ARM
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}.And_Release|x86.ActiveCfg = Android_Release|ARM
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}.iOS_Debug|x86.ActiveCfg = Android_Release|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}.iOS_Release|x86.ActiveCfg = Android_Release|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}.Pi_Debug|x86.ActiveCfg = Pi_Debug|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}.Pi_Debug|x86.Build.0 = Pi_Debug|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}.Pi_Release|x86.ActiveCfg = Pi_Release|Win32
+		{287B93A8-81E9-47A0-BC4F-39976094F5CA}.Pi_Release|x86.Build.0 = Pi_Release|Win32
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}._Win_Debug|x86.ActiveCfg = Win_Debug|x86
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}._Win_Release|x86.ActiveCfg = Win_Release|x86
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}.And_Debug|x86.ActiveCfg = And_Debug|ARM
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}.And_Debug|x86.Build.0 = And_Debug|ARM
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}.And_Release|x86.ActiveCfg = And_Release|ARM
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}.And_Release|x86.Build.0 = And_Release|ARM
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}.iOS_Debug|x86.ActiveCfg = And_Debug|x86
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}.iOS_Release|x86.ActiveCfg = And_Debug|x86
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}.Pi_Debug|x86.ActiveCfg = Pi_Debug|x86
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3}.Pi_Release|x86.ActiveCfg = Pi_Release|x86
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}._Win_Debug|x86.ActiveCfg = Win_Debug|x86
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}._Win_Release|x86.ActiveCfg = Win_Release|x86
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.And_Debug|x86.ActiveCfg = And_Debug|ARM
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.And_Debug|x86.Build.0 = And_Debug|ARM
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.And_Debug|x86.Deploy.0 = And_Debug|ARM
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.And_Release|x86.ActiveCfg = And_Release|ARM
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.And_Release|x86.Build.0 = And_Release|ARM
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.And_Release|x86.Deploy.0 = And_Release|ARM
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.iOS_Debug|x86.ActiveCfg = And_Debug|x86
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.iOS_Release|x86.ActiveCfg = And_Debug|x86
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.Pi_Debug|x86.ActiveCfg = Pi_Debug|x86
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539}.Pi_Release|x86.ActiveCfg = Pi_Release|x86
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}._Win_Debug|x86.ActiveCfg = Win_Debug|x86
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}._Win_Release|x86.ActiveCfg = Win_Release|x86
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.And_Debug|x86.ActiveCfg = iOS_Debug|x86
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.And_Release|x86.ActiveCfg = iOS_Debug|x86
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.iOS_Debug|x86.ActiveCfg = iOS_Debug|ARM
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.iOS_Debug|x86.Build.0 = iOS_Debug|ARM
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.iOS_Debug|x86.Deploy.0 = iOS_Debug|ARM
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.iOS_Release|x86.ActiveCfg = iOS_Release|ARM
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.iOS_Release|x86.Build.0 = iOS_Release|ARM
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.iOS_Release|x86.Deploy.0 = iOS_Release|ARM
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.Pi_Debug|x86.ActiveCfg = Pi_Debug|x86
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216}.Pi_Release|x86.ActiveCfg = Pi_Release|x86
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}._Win_Debug|x86.ActiveCfg = Win_Debug|x86
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}._Win_Release|x86.ActiveCfg = Win_Release|x86
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}.And_Debug|x86.ActiveCfg = iOS_Debug|x86
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}.And_Release|x86.ActiveCfg = iOS_Debug|x86
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}.iOS_Debug|x86.ActiveCfg = iOS_Debug|ARM
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}.iOS_Debug|x86.Build.0 = iOS_Debug|ARM
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}.iOS_Release|x86.ActiveCfg = iOS_Release|ARM
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}.iOS_Release|x86.Build.0 = iOS_Release|ARM
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}.Pi_Debug|x86.ActiveCfg = Pi_Debug|x86
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157}.Pi_Release|x86.ActiveCfg = Pi_Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B9EE211-23B5-4BA5-83EF-05411E6D580F} = {5185C76C-5316-49D5-A2B2-FDC407CDCD3B}
+		{A7E28BA4-9A58-461F-8A2A-5E9A6FCAB7A3} = {8B9EE211-23B5-4BA5-83EF-05411E6D580F}
+		{2BB55161-CCA8-4B6F-84F4-E09252AE3539} = {5185C76C-5316-49D5-A2B2-FDC407CDCD3B}
+		{BD1BE17D-7B72-43DA-926E-88D3D5605DDD} = {8B9EE211-23B5-4BA5-83EF-05411E6D580F}
+		{B29A2215-27AC-45FA-9862-3C84CD7A4216} = {5185C76C-5316-49D5-A2B2-FDC407CDCD3B}
+		{78EDFD36-48D8-426B-B2EC-0F8BC79AD157} = {8B9EE211-23B5-4BA5-83EF-05411E6D580F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14FE6BE4-CFB3-462E-849A-8C9A012132BF}
+	EndGlobalSection
+EndGlobal

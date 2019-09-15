@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="WAV.cpp">
+      <Filter>Core\Resources\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="IBO.cpp">
+      <Filter>Core\Resources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="MD2.cpp">
+      <Filter>Core\Resources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Core\Resources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Core\Resources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJ.cpp">
+      <Filter>Core\Resources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Core\Resources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Core\Resources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Core\Resources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Core\Resources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Core\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRenderer.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UICursor.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectList.cpp">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectProperties.cpp">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="LogWindow.cpp">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkWindow.cpp">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterWindow.cpp">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitDialog.cpp">
+      <Filter>Core\UI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.cpp">
+      <Filter>Core\UI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkClient.cpp">
+      <Filter>Core\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSource.cpp">
+      <Filter>ECS\Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviorScript.cpp">
+      <Filter>ECS\Components\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkBehavior.cpp">
+      <Filter>ECS\Components\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkIdentity.cpp">
+      <Filter>ECS\Components\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBody.cpp">
+      <Filter>ECS\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindAgent.cpp">
+      <Filter>ECS\Components\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxRenderer.cpp">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterRenderer.cpp">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleRenderer.cpp">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>ECS\Systems\AudioSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkSystem.cpp">
+      <Filter>ECS\Systems\NetworkSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>ECS\Systems\RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>ECS\Systems\PathfindSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindSystem.cpp">
+      <Filter>ECS\Systems\PathfindSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsDebugDrawer.cpp">
+      <Filter>ECS\Systems\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>ECS\Systems\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSystem.cpp">
+      <Filter>ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptSystem.cpp">
+      <Filter>ECS\Systems\ScriptSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuBar.cpp">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadInterface.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuizmo.cpp">
+      <Filter>Deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImSequencer.cpp">
+      <Filter>Deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GLContext.cpp">
+      <Filter>Core\Application\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindow.cpp">
+      <Filter>Core\Application\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="HQWaterRenderer.cpp">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Deps\glad\glad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFile.h">
+      <Filter>Core\Resources\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="WAV.h">
+      <Filter>Core\Resources\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="FBO.h">
+      <Filter>Core\Resources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="IBO.h">
+      <Filter>Core\Resources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Core\Resources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="MD2.h">
+      <Filter>Core\Resources\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Core\Resources\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Core\Resources\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ.h">
+      <Filter>Core\Resources\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Core\Resources\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexStructures.h">
+      <Filter>Core\Resources\References</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceManager.h">
+      <Filter>Core\Resources\References</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferencedObject.h">
+      <Filter>Core\Resources\References</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Core\Resources\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Core\Resources\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Core\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Core\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRenderer.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UICursor.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectList.h">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectProperties.h">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="LogWindow.h">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkWindow.h">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterWindow.h">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitDialog.h">
+      <Filter>Core\UI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>Core\UI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkClient.h">
+      <Filter>Core\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSource.h">
+      <Filter>ECS\Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorScript.h">
+      <Filter>ECS\Components\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkBehavior.h">
+      <Filter>ECS\Components\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkIdentity.h">
+      <Filter>ECS\Components\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindAgent.h">
+      <Filter>ECS\Components\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxRenderer.h">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterRenderer.h">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleRenderer.h">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>ECS\Systems\AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkSystem.h">
+      <Filter>ECS\Systems\NetworkSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>ECS\Systems\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>ECS\Systems\PathfindSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindSystem.h">
+      <Filter>ECS\Systems\PathfindSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsDebugDrawer.h">
+      <Filter>ECS\Systems\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>ECS\Systems\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSystem.h">
+      <Filter>ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptSystem.h">
+      <Filter>ECS\Systems\ScriptSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuBar.h">
+      <Filter>Core\UI\Windows\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GLDebug.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadInterface.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GLIncludes.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBody.h">
+      <Filter>ECS\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuizmo.h">
+      <Filter>Deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImSequencer.h">
+      <Filter>Deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GLContext.h">
+      <Filter>Core\Application\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="RPIContext.h">
+      <Filter>Core\Application\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="ANDContext.h">
+      <Filter>Core\Application\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="WINContext.h">
+      <Filter>Core\Application\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindow.h">
+      <Filter>Core\Application\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ANDWindow.h">
+      <Filter>Core\Application\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="RPIWindow.h">
+      <Filter>Core\Application\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="WINWindow.h">
+      <Filter>Core\Application\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="HQWaterRenderer.h">
+      <Filter>ECS\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Deps\glad\glad.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug.mak" />
+    <None Include="Framework-Linux-Debug.vgdbsettings" />
+    <None Include="Framework-Linux-Release.vgdbsettings" />
+    <None Include="Makefile" />
+    <None Include="release.mak" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4c627c79-f7e9-441c-a9c9-33bf66ea79ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS">
+      <UniqueIdentifier>{f212399c-e352-42d0-865d-b98fbabb800e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{108f8f16-11d7-4ae7-9947-2fea246b6639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Input">
+      <UniqueIdentifier>{f69d6e5c-c53d-44e3-a3d0-7d270d3dbc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Networking">
+      <UniqueIdentifier>{834332b1-d5df-4cc8-8671-f5e66973a52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resources">
+      <UniqueIdentifier>{b4fb77da-cce9-4476-897c-4506afa40dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scenes">
+      <UniqueIdentifier>{3e6e1002-8db9-4793-8ada-adf97185b93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\UI">
+      <UniqueIdentifier>{d48ab03e-acb5-4d4c-b54d-e45d96efa22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Application">
+      <UniqueIdentifier>{740d189b-d7ab-43e5-a714-7f4eecb35a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resources\Audio">
+      <UniqueIdentifier>{d11128e7-295b-4201-a7f1-f3345763ee84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resources\Buffers">
+      <UniqueIdentifier>{7a0921d9-8cc3-4961-a922-e6bdab5aeff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resources\Models">
+      <UniqueIdentifier>{6dbba04c-7e4b-42d7-84d0-1c8ed793cf11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resources\References">
+      <UniqueIdentifier>{540fafd9-947d-4f02-85cc-bc88555d6b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resources\Shaders">
+      <UniqueIdentifier>{0b8a8d26-47c7-4352-8906-b0c16899bb92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resources\Textures">
+      <UniqueIdentifier>{4a68c5d4-6102-416d-bbcf-d9500dfa9f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\UI\Windows">
+      <UniqueIdentifier>{ac566234-6a47-430c-87ea-afe4f83d36cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\UI\Windows\Debug">
+      <UniqueIdentifier>{8cbcc79a-afca-4710-a04d-f945578a357e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components">
+      <UniqueIdentifier>{01867942-2e58-466d-a68b-cc72476ffd84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Systems">
+      <UniqueIdentifier>{95b2beca-4de6-4f6e-9841-d654311b568e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components\Audio">
+      <UniqueIdentifier>{962a2790-d54b-4bb8-9494-e2f6c4bc04b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components\Networking">
+      <UniqueIdentifier>{d3ca771f-c474-453a-b247-db72f953b09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components\Pathfinding">
+      <UniqueIdentifier>{6cc090f6-4754-4983-b23f-9d4423e5076a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components\Physics">
+      <UniqueIdentifier>{9b3a5db2-ca06-4310-837b-bdb5f5fe8d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components\Rendering">
+      <UniqueIdentifier>{facea952-dbf9-44ae-9f05-dd8c02471833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components\Scripting">
+      <UniqueIdentifier>{cf16cbb3-4af3-4af7-af4a-b6f47c1b32cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Systems\AudioSystem">
+      <UniqueIdentifier>{d7823c8e-f7a2-4d98-a1ee-8bfb066deed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Systems\NetworkSystem">
+      <UniqueIdentifier>{9ff97ae9-682b-48e9-98f7-8e7c801861e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Systems\PathfindSystem">
+      <UniqueIdentifier>{984c5191-8e07-476f-87b9-95cba3776dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Systems\PhysicsSystem">
+      <UniqueIdentifier>{63ebf07d-23ff-4579-8ce9-ada36d7bdbe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Systems\RenderSystem">
+      <UniqueIdentifier>{c6083ac4-8d70-4842-9e73-8eaa38f464ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Systems\ScriptSystem">
+      <UniqueIdentifier>{1e294aa7-6d18-4217-97f3-70e53c399e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deps">
+      <UniqueIdentifier>{9421e7fc-fc3d-434b-b848-11165a046bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deps\glad">
+      <UniqueIdentifier>{3c0b718a-a1c7-41bd-9cc6-b4c222f7f0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deps\imgui">
+      <UniqueIdentifier>{65101c4d-2e04-419b-a2b8-c8204c5ee79a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deps\glfw">
+      <UniqueIdentifier>{905230d7-b918-4336-a966-407fe7514e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Application\Context">
+      <UniqueIdentifier>{1f3be1d6-37d5-48b7-b2a4-a8775d6fd786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Application\Window">
+      <UniqueIdentifier>{4b503c43-fad1-4acd-b430-9b07cc6cc1e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

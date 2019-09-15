@@ -1,0 +1,2505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{8fb5e29f-42db-4e46-89f7-177df1405294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deps">
+      <UniqueIdentifier>{af0518b0-e64a-4dcf-8735-75461bbd7ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battleships">
+      <UniqueIdentifier>{3cee796a-722e-4e48-bd39-59b1f2e0e92f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\common.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_common.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_exponential.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_geometric.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_integer.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_matrix.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_packing.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_trigonometric.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_vector_relational.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\precision.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\setup.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_float.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_gentype.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_half.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_int.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat2x2.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat2x3.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat2x4.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat3x2.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat3x3.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat3x4.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat4x2.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat4x3.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat4x4.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec1.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec2.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec3.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec4.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\_features.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\_fixes.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\_noise.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\_swizzle.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\_swizzle_func.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\_vectorize.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\exponential.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\ext.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\fwd.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\geometric.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\glm.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\bitfield.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\color_space.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\constants.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\epsilon.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\functions.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\integer.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\matrix_access.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\matrix_integer.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\matrix_inverse.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\matrix_transform.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\noise.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\packing.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\quaternion.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\random.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\reciprocal.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\round.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\type_aligned.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\type_precision.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\type_ptr.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\ulp.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\vec1.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\associated_min_max.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\bit.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\closest_point.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\color_space.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\common.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\compatibility.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\component_wise.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\dual_quaternion.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\euler_angles.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\extend.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\extended_min_max.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\fast_exponential.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\fast_square_root.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\fast_trigonometry.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\gradient_paint.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\hash.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\integer.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\intersect.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\io.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\log_base.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_cross_product.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_decompose.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_interpolation.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_major_storage.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_operation.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_query.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_transform_2d.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\mixed_product.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\norm.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\normal.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\normalize_dot.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\number_precision.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\optimum_pow.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\orthonormalize.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\perpendicular.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\polar_coordinates.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\projection.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\quaternion.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\range.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\raw_data.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\rotate_vector.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\scalar_multiplication.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\scalar_relational.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\spline.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\std_based_type.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\string_cast.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\transform.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\transform2.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\type_aligned.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\type_trait.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\vector_angle.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\vector_query.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\wrap.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\integer.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\mat2x2.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\mat2x3.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\mat2x4.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\mat3x2.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\mat3x3.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\mat3x4.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\mat4x2.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\mat4x3.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\mat4x4.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\matrix.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\packing.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\simd\common.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\simd\exponential.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\simd\geometric.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\simd\integer.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\simd\matrix.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\simd\packing.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\simd\platform.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\simd\trigonometric.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\simd\vector_relational.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\trigonometric.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\vec2.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\vec3.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\vec4.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\vector_relational.hpp">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\al\include\al.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\al\include\alc.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\al\include\alext.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\al\include\efx-creative.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\al\include\efx-presets.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\al\include\efx.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\btBulletCollisionCommon.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\btBulletDynamicsCommon.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btAxisSweep3.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btAxisSweep3Internal.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btBroadphaseInterface.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btBroadphaseProxy.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btDbvt.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btDbvtBroadphase.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btDispatcher.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btOverlappingPairCache.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btOverlappingPairCallback.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btQuantizedBvh.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btSimpleBroadphase.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btBoxBoxDetector.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionConfiguration.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionCreateFunc.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionDispatcher.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionDispatcherMt.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionObject.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionObjectWrapper.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionWorld.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionWorldImporter.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btGhostObject.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btHashedSimplePairCache.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btInternalEdgeUtility.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btManifoldResult.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btSimulationIslandManager.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btUnionFind.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\SphereTriangleDetector.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btBox2dShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btBoxShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btCapsuleShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btCollisionMargin.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btCollisionShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btCompoundShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConcaveShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConeShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvex2dShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexHullShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexInternalShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexPointCloudShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexPolyhedron.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btCylinderShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btEmptyShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btMaterial.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btMinkowskiSumShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btMultiSphereShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btOptimizedBvh.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btPolyhedralConvexShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btShapeHull.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btSphereShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btStaticPlaneShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btStridingMeshInterface.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTetrahedronShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleBuffer.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleCallback.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleInfoMap.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleMesh.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleMeshShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btUniformScalingShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btBoxCollision.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btClipPolygon.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btCompoundFromGimpact.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btContactProcessing.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btContactProcessingStructs.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGenericPoolAllocator.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGeometryOperations.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactBvh.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactBvhStructs.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactMassUtil.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactQuantizedBvh.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactQuantizedBvhStructs.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactShape.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btQuantization.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btTriangleShapeEx.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_array.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_basic_geometry_operations.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_bitset.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_box_collision.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_box_set.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_clip_polygon.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_contact.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_geometry.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_geom_types.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_hash_table.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_linear_math.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_math.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_memory.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_radixsort.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_tri_collision.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btComputeGjkEpaPenetration.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btConvexCast.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btConvexPenetrationDepthSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btDiscreteCollisionDetectorInterface.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkCollisionDescription.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkEpa2.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkEpa3.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btManifoldPoint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btMprPenetration.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btPersistentManifold.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btPointCollector.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btRaycastCallback.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btSimplexSolverInterface.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Character\btCharacterControllerInterface.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Character\btKinematicCharacterController.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btConstraintSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btContactConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btContactSolverInfo.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btFixedConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btGearConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btHinge2Constraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btHingeConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btJacobianEntry.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btSliderConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btSolverBody.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btSolverConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btTypedConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btUniversalConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btActionInterface.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btDiscreteDynamicsWorldMt.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btDynamicsWorld.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btRigidBody.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btSimulationIslandManagerMt.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBody.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyGearConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyJointFeedback.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyJointMotor.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyLink.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyLinkCollider.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyPoint2Point.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodySliderConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodySolverConstraint.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btDantzigLCP.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btDantzigSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btLemkeSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btMLCPSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btMLCPSolverInterface.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btPATHSolver.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btSolveProjectedGaussSeidel.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Vehicle\btRaycastVehicle.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Vehicle\btVehicleRaycaster.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Vehicle\btWheelInfo.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btAabbUtil2.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btAlignedAllocator.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btAlignedObjectArray.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btConvexHull.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btConvexHullComputer.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btCpuFeatureUtility.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btDefaultMotionState.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btGeometryUtil.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btGrahamScan2dConvexHull.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btHashMap.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btIDebugDraw.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btList.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btMatrix3x3.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btMatrixX.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btMinMax.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btMotionState.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btPolarDecomposition.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btPoolAllocator.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btQuadWord.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btQuaternion.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btQuickprof.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btRandom.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btScalar.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btSerializer.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btSpatialAlgebra.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btStackAlloc.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btThreads.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btTransform.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btTransformUtil.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btVector3.h">
+      <Filter>Deps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ANDContext.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ANDWindow.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Application.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\AudioFile.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\AudioSource.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\AudioSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\BehaviorScript.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Camera.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Component.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ComponentSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Debug.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Event.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ExitDialog.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\FBO.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\GameObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\GameObjectList.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\GameObjectProperties.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\GameTime.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\gcc_Debug.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\gcc_Pi_Debug.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\gcc_Pi_Release.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\gcc_Release.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\GLContext.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\GLDebug.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\GLIncludes.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\GLWindow.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\IBO.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\imconfig.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\imgui.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\imgui_impl_glfw_gl2.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\imgui_internal.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ImGuizmo.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ImSequencer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\InputManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\LoadInterface.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\LogWindow.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\MainMenuBar.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\MD2.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Mesh.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\MeshRenderer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Model.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkBehavior.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkClient.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkIdentity.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkWindow.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\OBJ.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ObjectManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ParticleRenderer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Path.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\PathfindAgent.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\PathfindSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\PhysicsBody.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\PhysicsDebugDrawer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\PhysicsSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ReferencedObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ReferenceManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Renderer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\RenderSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\RPIContext.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\RPIWindow.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Scene.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\SceneManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ScriptSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Shader.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\ShaderProgram.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Shape.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\SkyboxRenderer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\SpriteRenderer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\stb_image.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\stb_rect_pack.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\stb_textedit.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\stb_truetype.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Texture.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\tiny_obj_loader.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Transform.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\UICursor.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\UIElement.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\UIRenderer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\Utils.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\VBO.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\VertexStructures.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\WaterRenderer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\WaterWindow.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\WAV.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\WINContext.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\WINWindow.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\BaseCamera.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\BaseShip.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\CameraController.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\CameraIdentifiers.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\DebugScene.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\FreeCamera.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\Game.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\GamePlayCamera.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\GameStateManager.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\gcc_Debug.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\gcc_Pi_Release.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\gcc_Release.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\HPBar.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\IntroScene.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\LobbyManager.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\LobbyWindow.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\MainMenuScene.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\MainMenuWindow.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\MapScene.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\ObjectSpawners.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\PacketEnums.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\ParticleScene.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\Shell.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\UnitCamera.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\UnitController.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\UnitStats.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\CreditScene.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\LoadScreen.h">
+      <Filter>Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Framework\HQWaterRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\GameProperties.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\resource.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Battleships\SoundFader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_common.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_common_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_exponential.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_exponential_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_geometric.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_geometric_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_integer.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_integer_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_matrix.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_matrix_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_packing.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_packing_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_trigonometric.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_trigonometric_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_vector_relational.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\func_vector_relational_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_gentype.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_half.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat2x2.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat2x3.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat2x4.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat3x2.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat3x3.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat3x4.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat4x2.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat4x3.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat4x4.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_mat4x4_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec1.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec2.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec3.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec4.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\type_vec4_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\bitfield.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\color_encoding.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\color_space.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\constants.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\epsilon.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\functions.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\integer.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\matrix_access.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\matrix_inverse.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\matrix_transform.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\noise.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\packing.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\quaternion.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\quaternion_simd.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\random.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\reciprocal.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\round.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\type_precision.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\type_ptr.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\ulp.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtc\vec1.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\associated_min_max.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\bit.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\closest_point.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\color_space.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\color_space_YCoCg.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\common.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\compatibility.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\component_wise.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\dual_quaternion.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\euler_angles.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\extend.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\extended_min_max.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\fast_exponential.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\fast_square_root.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\fast_trigonometry.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\float_notmalize.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\gradient_paint.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\handed_coordinate_space.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\hash.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\integer.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\intersect.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\io.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\log_base.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_cross_product.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_decompose.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_interpolation.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_major_storage.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_operation.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_query.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\matrix_transform_2d.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\mixed_product.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\norm.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\normal.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\normalize_dot.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\number_precision.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\optimum_pow.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\orthonormalize.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\perpendicular.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\polar_coordinates.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\projection.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\quaternion.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\raw_data.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\rotate_normalized_axis.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\rotate_vector.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\scalar_relational.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\spline.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\std_based_type.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\string_cast.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\transform.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\transform2.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\type_aligned.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\type_trait.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\vector_angle.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\vector_query.inl">
+      <Filter>Deps</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\gtx\wrap.inl">
+      <Filter>Deps</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\glm\detail\glm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btDbvt.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btDispatcher.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionDispatcherMt.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionObject.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionWorld.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCollisionWorldImporter.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btGhostObject.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btHashedSimplePairCache.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btManifoldResult.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\btUnionFind.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btBox2dShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btBoxShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btCapsuleShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btCollisionShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btCompoundShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConcaveShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConeShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvex2dShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexHullShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btCylinderShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btEmptyShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btOptimizedBvh.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btShapeHull.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btSphereShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTetrahedronShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleBuffer.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleCallback.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleMesh.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\CollisionShapes\btUniformScalingShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btContactProcessing.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGenericPoolAllocator.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactBvh.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btGImpactShape.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\btTriangleShapeEx.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_box_set.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_contact.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_memory.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\Gimpact\gim_tri_collision.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Character\btKinematicCharacterController.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btContactConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btGearConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btDiscreteDynamicsWorldMt.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btRigidBody.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Dynamics\btSimulationIslandManagerMt.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBody.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyGearConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Vehicle\btRaycastVehicle.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\BulletDynamics\Vehicle\btWheelInfo.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btAlignedAllocator.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btConvexHull.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btConvexHullComputer.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btGeometryUtil.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btPolarDecomposition.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btQuickprof.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btSerializer.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btSerializer64.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btThreads.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Deps\bullet\include\LinearMath\btVector3.cpp">
+      <Filter>Deps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\WaterRenderer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\WaterWindow.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\WAV.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Application.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\AudioSource.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\AudioSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\BehaviorScript.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Camera.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Component.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\ComponentSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Debug.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\ExitDialog.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\GameObject.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\GameObjectList.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\GameObjectProperties.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\GameTime.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\GLContext.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\GLWindow.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\IBO.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\imgui.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\imgui_demo.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\imgui_draw.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\imgui_impl_glfw_gl2.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\ImGuizmo.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\ImSequencer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\InputManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\LoadInterface.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\LogWindow.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\MainMenuBar.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\MD2.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Mesh.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\MeshRenderer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Model.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkBehavior.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkClient.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkIdentity.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\NetworkWindow.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\OBJ.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\ObjectManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\ParticleRenderer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Path.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\PathfindAgent.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\PathfindSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\PhysicsBody.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\PhysicsDebugDrawer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\PhysicsSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Renderer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\RenderSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Scene.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\SceneManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\ScriptSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Shader.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\ShaderProgram.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Shape.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\SkyboxRenderer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\SpriteRenderer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Texture.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Transform.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\UICursor.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\UIElement.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\UIRenderer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\Utils.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\UnitCamera.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\UnitController.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\UnitStats.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\BaseCamera.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\BaseShip.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\CameraController.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\DebugScene.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\FreeCamera.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\Game.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\GamePlayCamera.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\GameStateManager.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\HPBar.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\IntroScene.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\LobbyManager.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\LobbyWindow.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\MainMenuScene.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\MainMenuWindow.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\MapScene.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\ObjectSpawners.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\ParticleScene.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\Shell.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\CreditScene.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\LoadScreen.cpp">
+      <Filter>Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Framework\HQWaterRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\GameProperties.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Battleships\SoundFader.cpp" />
+  </ItemGroup>
+</Project>

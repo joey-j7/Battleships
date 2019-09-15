@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="iOS_Debug|ARM">
+      <Configuration>iOS_Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="iOS_Debug|ARM64">
+      <Configuration>iOS_Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="iOS_Debug|x64">
+      <Configuration>iOS_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="iOS_Debug|x86">
+      <Configuration>iOS_Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="iOS_Release|ARM">
+      <Configuration>iOS_Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="iOS_Release|ARM64">
+      <Configuration>iOS_Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="iOS_Release|x64">
+      <Configuration>iOS_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="iOS_Release|x86">
+      <Configuration>iOS_Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Debug|ARM">
+      <Configuration>Pi_Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Debug|ARM64">
+      <Configuration>Pi_Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Debug|x64">
+      <Configuration>Pi_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Debug|x86">
+      <Configuration>Pi_Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Release|ARM">
+      <Configuration>Pi_Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Release|ARM64">
+      <Configuration>Pi_Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Release|x64">
+      <Configuration>Pi_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Release|x86">
+      <Configuration>Pi_Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Debug|ARM">
+      <Configuration>Win_Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Debug|ARM64">
+      <Configuration>Win_Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Debug|x64">
+      <Configuration>Win_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Debug|x86">
+      <Configuration>Win_Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Release|ARM">
+      <Configuration>Win_Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Release|ARM64">
+      <Configuration>Win_Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Release|x64">
+      <Configuration>Win_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Release|x86">
+      <Configuration>Win_Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>{b29a2215-27ac-45fa-9862-3c84cd7a4216}</ProjectGuid>
+    <PbxprojDirectory>Battleships.iOS.Application.xcodeproj</PbxprojDirectory>
+    <TARGET_NAME>Battleships</TARGET_NAME>
+  </PropertyGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <iOSConfigurationType>Application</iOSConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|x86'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|x64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|ARM'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|ARM64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|x86'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|x64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|ARM'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|ARM64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|x86'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|x64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|ARM'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|ARM64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|x86'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|x64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|ARM'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|ARM64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|x86'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|x64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|ARM'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|ARM64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|x86'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|x64'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|ARM'" Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|ARM64'" Label="UserMacros" />
+  <PropertyGroup>
+    <TargetName>Battleships</TargetName>
+    <TargetExt>.app</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|x86'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|ARM'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|ARM64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|x86'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|ARM'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|ARM64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|x86'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|ARM'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|ARM64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|x86'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|ARM'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|ARM64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|x86'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|ARM'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|ARM64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|x86'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|ARM'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|ARM64'" />
+  <ItemDefinitionGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <SymbolsHiddenByDefault>false</SymbolsHiddenByDefault>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <SymbolsHiddenByDefault>false</SymbolsHiddenByDefault>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <SymbolsHiddenByDefault>false</SymbolsHiddenByDefault>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Debug|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <SymbolsHiddenByDefault>false</SymbolsHiddenByDefault>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'iOS_Release|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Debug|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Win_Release|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Debug|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Pi_Release|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Battleships.iOS\AppDelegate.m" />
+    <ClCompile Include="Battleships.iOS\GameViewController.m" />
+    <ClCompile Include="Battleships.iOS\main.m" />
+    <ClInclude Include="Battleships.iOS\AppDelegate.h" />
+    <ClInclude Include="Battleships.iOS\GameViewController.h" />
+    <Content Include="Battleships.iOS\Base.lproj\Main.storyboard" />
+    <Content Include="Battleships.iOS\Images.xcassets\AppIcon.appiconset\Contents.json" />
+    <InfoPlist Include="Battleships.iOS\Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Battleships.iOS.StaticLibrary\Battleships.iOS.StaticLibrary.vcxproj">
+      <Project>{78edfd36-48d8-426b-b2ec-0f8bc79ad157}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <pbxproj Include="Battleships.iOS.Application.xcodeproj\project.pbxproj" />
+  </ItemGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

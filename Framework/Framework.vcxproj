@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Android_Debug|ARM">
+      <Configuration>Android_Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Debug|Win32">
+      <Configuration>Android_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Release|ARM">
+      <Configuration>Android_Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Release|Win32">
+      <Configuration>Android_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Debug|ARM">
+      <Configuration>Pi_Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Release|ARM">
+      <Configuration>Pi_Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Debug|ARM">
+      <Configuration>Win_Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Debug|Win32">
+      <Configuration>Win_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Release|Win32">
+      <Configuration>Pi_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Pi_Debug|Win32">
+      <Configuration>Pi_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Release|ARM">
+      <Configuration>Win_Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Release|Win32">
+      <Configuration>Win_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{287B93A8-81E9-47A0-BC4F-39976094F5CA}</ProjectGuid>
+    <RootNamespace>Framework</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Pi_Release|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Pi_Debug|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Win_Debug|ARM'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Pi_Debug|ARM'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Android_Release|ARM'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Pi_Release|ARM'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Win_Release|ARM'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Android_Debug|ARM'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Pi_Release|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeOutput>$(ProjectDir)Framework-Release.vgdbsettings</NMakeOutput>
+    <NMakeIncludeSearchPath>$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0000\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0000\include\interface\vcos\pthreads;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0000\include\interface;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0000\include\interface\vmcs_host\linux;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0001\include\bullet;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0001\include\c++\6;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0001\include\arm-linux-gnueabihf\c++\6;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0001\include\c++\6\backward;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0002\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0004\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0003\include-fixed;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0001\include\arm-linux-gnueabihf;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.1.115\0001\include;Deps;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Pi_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Pi_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Pi_Debug|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeOutput>$(ProjectDir)Framework-Debug.vgdbsettings</NMakeOutput>
+    <NMakeIncludeSearchPath>$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0000\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0000\include\interface\vcos\pthreads;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0000\include\interface;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0000\include\interface\vmcs_host\linux;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0001\include\fcitx;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0001\include\bullet;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0001\include\c++\6;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0001\include\arm-linux-gnueabihf\c++\6;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0001\include\c++\6\backward;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0002\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0004\include;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0003\include-fixed;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0001\include\arm-linux-gnueabihf;$(LOCALAPPDATA)\VisualGDB\RemoteSourceCache\192.168.178.112\0001\include;Deps;Deps\bullet\include;Deps\glfw\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Pi_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Pi_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Framework\Deps;$(SolutionDir)Framework\Deps\glfw\include;$(SolutionDir)Framework\Deps\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>_MBCS;WINDOWS;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Framework\Deps\glfw\lib;$(SolutionDir)Framework\Deps\raknet\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glfw3.lib;OpenAL32.lib;RakNetStaticDebug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Framework\Deps;$(SolutionDir)Framework\Deps\glfw\include;$(SolutionDir)Framework\Deps\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>_MBCS;WINDOWS;RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Framework\Deps\glfw\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Framework\Deps;$(SolutionDir)Framework\Deps\glfw\include;$(SolutionDir)Framework\Deps\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>_MBCS;ANDROID;OPENGLES;EGL;RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Framework\Deps\glfw\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_MBCS;ANDROID;OPENGLES;EGL;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release|ARM'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug|ARM'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="AudioSource.cpp" />
+    <ClCompile Include="AudioSystem.cpp" />
+    <ClCompile Include="BehaviorScript.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ComponentSystem.cpp" />
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="Deps\glad\glad.c" />
+    <ClCompile Include="GLContext.cpp" />
+    <ClCompile Include="ExitDialog.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectList.cpp" />
+    <ClCompile Include="GameObjectProperties.cpp" />
+    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="HQWaterRenderer.cpp" />
+    <ClCompile Include="IBO.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="ImGuizmo.cpp" />
+    <ClCompile Include="imgui_demo.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="ImSequencer.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="LoadInterface.cpp" />
+    <ClCompile Include="LogWindow.cpp" />
+    <ClCompile Include="MainMenuBar.cpp" />
+    <ClCompile Include="MD2.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshRenderer.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="NetworkBehavior.cpp" />
+    <ClCompile Include="NetworkClient.cpp" />
+    <ClCompile Include="NetworkIdentity.cpp" />
+    <ClCompile Include="NetworkSystem.cpp" />
+    <ClCompile Include="NetworkWindow.cpp" />
+    <ClCompile Include="OBJ.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="ParticleRenderer.cpp" />
+    <ClCompile Include="Path.cpp" />
+    <ClCompile Include="PathfindAgent.cpp" />
+    <ClCompile Include="PathfindSystem.cpp" />
+    <ClCompile Include="PhysicsBody.cpp" />
+    <ClCompile Include="PhysicsDebugDrawer.cpp" />
+    <ClCompile Include="PhysicsSystem.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="RenderSystem.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ScriptSystem.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderProgram.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="SkyboxRenderer.cpp" />
+    <ClCompile Include="SpriteRenderer.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="UICursor.cpp" />
+    <ClCompile Include="UIElement.cpp" />
+    <ClCompile Include="UIRenderer.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="WaterRenderer.cpp" />
+    <ClCompile Include="WaterWindow.cpp" />
+    <ClCompile Include="WAV.cpp" />
+    <ClCompile Include="GLWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ANDContext.h" />
+    <ClInclude Include="ANDWindow.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="AudioFile.h" />
+    <ClInclude Include="AudioSource.h" />
+    <ClInclude Include="AudioSystem.h" />
+    <ClInclude Include="BehaviorScript.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ComponentSystem.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Deps\glad\glad.h" />
+    <ClInclude Include="GLContext.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="ExitDialog.h" />
+    <ClInclude Include="FBO.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectList.h" />
+    <ClInclude Include="GameObjectProperties.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="GLDebug.h" />
+    <ClInclude Include="HQWaterRenderer.h" />
+    <ClInclude Include="IBO.h" />
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui.h" />
+    <ClInclude Include="ImGuizmo.h" />
+    <ClInclude Include="imgui_internal.h" />
+    <ClInclude Include="ImSequencer.h" />
+    <ClInclude Include="GLIncludes.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="LoadInterface.h" />
+    <ClInclude Include="LogWindow.h" />
+    <ClInclude Include="MainMenuBar.h" />
+    <ClInclude Include="MD2.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshRenderer.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="NetworkBehavior.h" />
+    <ClInclude Include="NetworkClient.h" />
+    <ClInclude Include="NetworkIdentity.h" />
+    <ClInclude Include="NetworkSystem.h" />
+    <ClInclude Include="NetworkWindow.h" />
+    <ClInclude Include="OBJ.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="ParticleRenderer.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="PathfindAgent.h" />
+    <ClInclude Include="PathfindSystem.h" />
+    <ClInclude Include="PhysicsBody.h" />
+    <ClInclude Include="PhysicsDebugDrawer.h" />
+    <ClInclude Include="PhysicsSystem.h" />
+    <ClInclude Include="ReferencedObject.h" />
+    <ClInclude Include="ReferenceManager.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="RenderSystem.h" />
+    <ClInclude Include="RPIContext.h" />
+    <ClInclude Include="RPIWindow.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="ScriptSystem.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="SkyboxRenderer.h" />
+    <ClInclude Include="SpriteRenderer.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="UICursor.h" />
+    <ClInclude Include="UIElement.h" />
+    <ClInclude Include="UIRenderer.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="VBO.h" />
+    <ClInclude Include="VertexStructures.h" />
+    <ClInclude Include="WaterRenderer.h" />
+    <ClInclude Include="WaterWindow.h" />
+    <ClInclude Include="WAV.h" />
+    <ClInclude Include="GLWindow.h" />
+    <ClInclude Include="WINContext.h" />
+    <ClInclude Include="WINWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug.mak" />
+    <None Include="Framework-Linux-Debug.vgdbsettings" />
+    <None Include="Framework-Linux-Release.vgdbsettings" />
+    <None Include="Makefile" />
+    <None Include="release.mak" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

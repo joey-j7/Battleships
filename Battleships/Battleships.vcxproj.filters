@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="DebugScene.cpp">
+      <Filter>Scenes\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCamera.cpp">
+      <Filter>Scripts\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Scripts\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseShip.cpp">
+      <Filter>Scripts\UnitController\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCamera.cpp">
+      <Filter>Scripts\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayCamera.cpp">
+      <Filter>Scripts\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>Scripts\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyManager.cpp">
+      <Filter>Scripts\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MapScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitController.cpp">
+      <Filter>Scripts\UnitController</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitStats.cpp">
+      <Filter>Scripts\UnitController</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitCamera.cpp">
+      <Filter>Scripts\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleScene.cpp">
+      <Filter>Scenes\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Shell.cpp">
+      <Filter>Scripts\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSpawners.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyWindow.cpp">
+      <Filter>UI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuWindow.cpp">
+      <Filter>UI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScreen.cpp">
+      <Filter>Scripts\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundFader.cpp">
+      <Filter>Scripts\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProperties.cpp">
+      <Filter>UI\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="DebugScene.h">
+      <Filter>Scenes\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCamera.h">
+      <Filter>Scripts\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Scripts\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraIdentifiers.h">
+      <Filter>Scripts\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseShip.h">
+      <Filter>Scripts\UnitController\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCamera.h">
+      <Filter>Scripts\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayCamera.h">
+      <Filter>Scripts\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>Scripts\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyManager.h">
+      <Filter>Scripts\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MapScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitController.h">
+      <Filter>Scripts\UnitController</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitStats.h">
+      <Filter>Scripts\UnitController</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitCamera.h">
+      <Filter>Scripts\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleScene.h">
+      <Filter>Scenes\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell.h">
+      <Filter>Scripts\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSpawners.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketEnums.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyWindow.h">
+      <Filter>UI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuWindow.h">
+      <Filter>UI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScreen.h">
+      <Filter>Scripts\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFader.h">
+      <Filter>Scripts\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="GameProperties.h">
+      <Filter>UI\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{966bbb9a-4e3a-4043-b5b4-bf1fab2a2b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{a061190d-cda8-455a-bb77-eacceee8d2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{0c4ac005-bf30-43d7-807d-7d07e0a9c704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{e6e79d69-39f9-4bf5-9b32-3901dba2e6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\HUD">
+      <UniqueIdentifier>{f7e16f81-4b9d-41dd-a023-7c5edc860752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows">
+      <UniqueIdentifier>{fe7003e3-6b3e-4e74-8917-e8b58e8213be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Camera">
+      <UniqueIdentifier>{f7c89409-1b7e-442d-b0f6-38d3942ff80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Networking">
+      <UniqueIdentifier>{d82cbf80-10e7-4492-9ba7-8caba327be7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UnitController">
+      <UniqueIdentifier>{165c0b24-0e6e-4a05-885d-05cb5ec10272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Projectile">
+      <UniqueIdentifier>{24691450-48ed-4e89-8e1b-8dd1d176065c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Debug">
+      <UniqueIdentifier>{c4084160-6f12-429c-a274-a7079bd04fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UnitController\Ships">
+      <UniqueIdentifier>{b24a21d4-6bf8-4e50-925d-c88425bf622f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Misc">
+      <UniqueIdentifier>{27a5eac6-e79d-4a67-9bf4-cd66c3c66b07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Battleships.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Game\Textures\Icon\evil.ico" />
+    <Image Include="Assets\Game\Textures\Icon\evil.png" />
+  </ItemGroup>
+</Project>
